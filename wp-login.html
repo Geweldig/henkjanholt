@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-    
 <!-- Mirrored from henkjanholt.nl/wp-login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Aug 2022 18:28:59 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack -->
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>reCAPTCHA</title>
-
-        <!-- Core CSS -->
-        <link href="https://captcha.totaalholding.nl/assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://captcha.totaalholding.nl/assets/css/core.css" rel="stylesheet">
-
-        <script type="text/javascript">
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.7.45">
+  <meta http-equiv="content-type" content=
+  "text/html; charset=utf-8"><!-- /Added by HTTrack -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1">
+  <title>reCAPTCHA</title><!-- Core CSS -->
+  <link href=
+  "https://captcha.totaalholding.nl/assets/css/bootstrap.min.css"
+  rel="stylesheet">
+  <link href="https://captcha.totaalholding.nl/assets/css/core.css"
+  rel="stylesheet">
+  <script type="text/javascript">
             function createCookie(name, value, days) {
                 var expires = '';
                 if (days) {
@@ -28,126 +30,119 @@
             if (document.cookie.indexOf('validation') >= 0) {
                 window.location = window.location.href;
             }
-        </script>
-    </head>
-
-    <body>
-        <div class="container centered">
-            <noscript>
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <div class="alert alert-danger">
-                            <div class="lang-nl">
-                                <p>
-                                    JavaScript staat uitgeschakeld. Om toegang te krijgen tot je website moet JavaScript ingeschakeld zijn.
-                                </p>
-                            </div>
-
-                            <div class="lang-en active">
-                                <p>
-                                    JavaScript is disabled. To access your website, JavaScript must be enabled.
-                                </p>
-                            </div>
-
-                            <div class="lang-en">
-                                <p>
-                                    JavaScript è disabilitato. Per accedere al tuo sito web, JavaScript deve essere abilitato.
-                                </p>
-                            </div>
-
-                            <div class="lang-dk">
-                                <p>
-                                    JavaScript er slået fra. For at få adgang til dit websted skal JavaScript være aktiveret.
-                                </p>
-                            </div>
-
-                            <div class="lang-cs">
-                                <p>
-                                    JavaScript je zakázán. Pro přístup na váš web musí být povolen JavaScript.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </noscript>
-
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <ol class="breadcrumb">
-                        <li><a href="#" class="change-lang" data-lang="nl">NL</a></li>
-                        <li><a href="#" class="change-lang" data-lang="en">EN</a></li>
-                        <li><a href="#" class="change-lang" data-lang="it">IT</a></li>
-                        <li><a href="#" class="change-lang" data-lang="da">DA</a></li>
-                        <li><a href="#" class="change-lang" data-lang="cs">CS</a></li>
-                    </ol>
-
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <form id="validate" action="#" method="post">
-                                <div id="captcha" style="margin-bottom: 10px;">
-                                    <div class="g-recaptcha" data-sitekey="6LdMlhsTAAAAAPTQkBeFaFu5GA8BBUNuD5EuVVqN"></div>
-                                    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
-                                </div>
-
-                                <div class="lang-nl">
-                                    <p>
-                                        Deze pagina is een extra beveiliging voor websites die gebruik maken van
-                                        WordPress of Joomla!. Voordat je kan inloggen, is het belangrijk dat je aantoont dat
-                                        je een mens bent. Dat doe je door bovenstaande reCAPTCHA te bevestigen.
-                                    </p>
-
-                                    <button type="submit" class="btn btn-primary">Bevestig</button>
-                                </div>
-
-                                <div class="lang-en active">
-                                    <p>
-                                        This page is an extra security measure for websites which use WordPress or Joomla!.
-                                        Before you can log in, you have confirm that you are a human being. You can do this
-                                        by confirming the reCAPTCHA above.
-                                    </p>
-
-                                    <button type="submit" class="btn btn-primary">Confirm</button>
-                                </div>
-
-                                <div class="lang-it">
-                                    <p>
-                                        Questa pagina è una misura di sicurezza supplementare per i siti web che utilizzano
-                                        WordPress o Joomla!. Prima di accedere, hai confermato di essere un essere umano.
-                                        Puoi farlo confermando la reCAPTCHA sopra.
-                                    </p>
-
-                                    <button type="submit" class="btn btn-primary">Conferma</button>
-                                </div>
-
-                                <div class="lang-da">
-                                    <p>
-                                        Denne side er en ekstra sikkerhedsforanstaltning for websteder, der bruger WordPress
-                                        eller Joomla!. Før du kan logge ind, har du bekræftet, at du er et menneske. Du kan
-                                        gøre dette ved at bekræfte reCAPTCHA ovenfor.
-                                    </p>
-
-                                    <button type="submit" class="btn btn-primary">Bekræfte</button>
-                                </div>
-
-                                <div class="lang-cs">
-                                    <p>
-                                        Tato stránka slouží jako extra protekce pro stránky, které používají WordPress nebo Joomla!. 
-                                        Než se budete moct přihlásit, musíte potvrdit, že jste člověk. Vyplňte prosím reCAPTCHA výše.
-                                    </p>
-
-                                    <button type="submit" class="btn btn-primary">Potvrdit</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </script>
+</head>
+<body>
+  <div class="container centered">
+    <noscript>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="alert alert-danger">
+          <div class="lang-nl">
+            <p>JavaScript staat uitgeschakeld. Om toegang te
+            krijgen tot je website moet JavaScript ingeschakeld
+            zijn.</p>
+          </div>
+          <div class="lang-en active">
+            <p>JavaScript is disabled. To access your website,
+            JavaScript must be enabled.</p>
+          </div>
+          <div class="lang-en">
+            <p>JavaScript è disabilitato. Per accedere al tuo sito
+            web, JavaScript deve essere abilitato.</p>
+          </div>
+          <div class="lang-dk">
+            <p>JavaScript er slået fra. For at få adgang til dit
+            websted skal JavaScript være aktiveret.</p>
+          </div>
+          <div class="lang-cs">
+            <p>JavaScript je zakázán. Pro přístup na váš web musí
+            být povolen JavaScript.</p>
+          </div>
         </div>
+      </div>
+    </div></noscript>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <ol class="breadcrumb">
+          <li>
+            <a href="#" class="change-lang" data-lang="nl">NL</a>
+          </li>
+          <li>
+            <a href="#" class="change-lang" data-lang="en">EN</a>
+          </li>
+          <li>
+            <a href="#" class="change-lang" data-lang="it">IT</a>
+          </li>
+          <li>
+            <a href="#" class="change-lang" data-lang="da">DA</a>
+          </li>
+          <li>
+            <a href="#" class="change-lang" data-lang="cs">CS</a>
+          </li>
+        </ol>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <form id="validate" action="#" method="post" name=
+            "validate">
+              <div id="captcha" style="margin-bottom: 10px;">
+                <div class="g-recaptcha" data-sitekey=
+                "6LdMlhsTAAAAAPTQkBeFaFu5GA8BBUNuD5EuVVqN"></div>
+                <script type="text/javascript" src=
+                "https://www.google.com/recaptcha/api.js?hl=en"></script>
+              </div>
+              <div class="lang-nl">
+                <p>Deze pagina is een extra beveiliging voor
+                websites die gebruik maken van WordPress of
+                Joomla!. Voordat je kan inloggen, is het belangrijk
+                dat je aantoont dat je een mens bent. Dat doe je
+                door bovenstaande reCAPTCHA te
+                bevestigen.</p><button type="submit" class=
+                "btn btn-primary">Bevestig</button>
+              </div>
+              <div class="lang-en active">
+                <p>This page is an extra security measure for
+                websites which use WordPress or Joomla!. Before you
+                can log in, you have confirm that you are a human
+                being. You can do this by confirming the reCAPTCHA
+                above.</p><button type="submit" class=
+                "btn btn-primary">Confirm</button>
+              </div>
+              <div class="lang-it">
+                <p>Questa pagina è una misura di sicurezza
+                supplementare per i siti web che utilizzano
+                WordPress o Joomla!. Prima di accedere, hai
+                confermato di essere un essere umano. Puoi farlo
+                confermando la reCAPTCHA sopra.</p><button type=
+                "submit" class="btn btn-primary">Conferma</button>
+              </div>
+              <div class="lang-da">
+                <p>Denne side er en ekstra sikkerhedsforanstaltning
+                for websteder, der bruger WordPress eller Joomla!.
+                Før du kan logge ind, har du bekræftet, at du er et
+                menneske. Du kan gøre dette ved at bekræfte
+                reCAPTCHA ovenfor.</p><button type="submit" class=
+                "btn btn-primary">Bekræfte</button>
+              </div>
+              <div class="lang-cs">
+                <p>Tato stránka slouží jako extra protekce pro
+                stránky, které používají WordPress nebo Joomla!.
+                Než se budete moct přihlásit, musíte potvrdit, že
+                jste člověk. Vyplňte prosím reCAPTCHA
+                výše.</p><button type="submit" class=
+                "btn btn-primary">Potvrdit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- Core JS -->
+  <script src=
+  "https://captcha.totaalholding.nl/assets/js/jquery-3.3.1.min.js"></script>
+  
+  <script type="text/javascript">
 
-        <!-- Core JS -->
-        <script src="https://captcha.totaalholding.nl/assets/js/jquery-3.3.1.min.js"></script>
-
-        <script type="text/javascript">
             var langReset = function () {
                 grecaptcha.reset();
             };
@@ -165,18 +160,17 @@
                 $('[class^=lang-].active').removeClass('active');
                 $('.lang-' + lang).addClass('active');
 
-		$('#captcha').remove();
+                $('#captcha').remove();
 
-		const captcha = $('<div id="captcha"></div>');
+                const captcha = $('<div id="captcha"></div>');
 
-		captcha.prepend(`<div class="g-recaptcha" data-sitekey="6LdMlhsTAAAAAPTQkBeFaFu5GA8BBUNuD5EuVVqN"></div><script src="https://www.google.com/recaptcha/api.js?onload=langReset&hl=${lang}" type="text/javascript" async defer />`);
+                captcha.prepend(`<div class="g-recaptcha" data-sitekey="6LdMlhsTAAAAAPTQkBeFaFu5GA8BBUNuD5EuVVqN"></div><script src="https://www.google.com/recaptcha/api.js?onload=langReset&hl=${lang}" type="text/javascript" async defer />`);
 
-		$('#validate').prepend(captcha);
+                $('#validate').prepend(captcha);
             });
 
             $('#validate').append($('<input>').attr('type', 'hidden').attr('name', 'redirect').val(window.location.href));
-        </script>
-    </body>
-
-<!-- Mirrored from henkjanholt.nl/wp-login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Aug 2022 18:28:59 GMT -->
+  </script>
+  <!-- Mirrored from henkjanholt.nl/wp-login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Aug 2022 18:28:59 GMT -->
+</body>
 </html>
